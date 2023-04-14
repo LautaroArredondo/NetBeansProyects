@@ -18,6 +18,7 @@ public class Segun {
      */
     public static void main(String[] args) {
        Scanner leer = new Scanner(System.in);
+        System.out.println("Indique el tipo de motor (1-4)");
        byte TipoMotor = leer.nextByte();
        
        switch(TipoMotor){
