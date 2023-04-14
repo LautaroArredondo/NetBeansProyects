@@ -16,7 +16,7 @@ public class DoWhile {
    
     public static void main(String[] args) {
         Scanner leer= new Scanner(System.in);
-         int cont=1,suma=0;
+         int cont=0,suma=0;
         do {
             System.out.println("ingrese sus numeros");
            int num = leer.nextInt();
